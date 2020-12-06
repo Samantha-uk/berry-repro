@@ -1,0 +1,86 @@
+{
+	"folders": [
+		{
+			"name": "✨ @samantha-uk/berry-repro",
+			"path": "."
+		},
+		{
+			"name": "⚙️ @samantha-uk/tools",
+			"path": "tools"
+		}
+	],
+	"settings": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2,
+		"eslint.alwaysShowStatus": true,
+		"eslint.trace.server": "verbose",
+		"eslint.debug": true,
+		"eslint.format.enable": true,
+		"eslint.nodePath": "/home/samantha/github/one/.yarn/sdks/",
+		"eslint.packageManager": "yarn",
+		"eslint.validate": [
+			"javascript",
+			"javascriptreact",
+			"typescript",
+			"typescriptreact",
+			"json",
+			"jsonc"
+		],
+		"eslint.workingDirectories": [
+			"/home/samantha/github/one"
+		],
+		"files.associations": {
+			"**/*.json": "jsonc",
+			"**/package.json": "json"
+		},
+		"files.autoSave": "onFocusChange",
+		"files.exclude": {
+			"**/.git": false
+		},
+		"monorepoWorkspace.folders.custom": [
+			{
+				"prefix": "爵 ",
+				"regex": "components"
+			},
+			{
+				"prefix": "全 ",
+				"regex": "modules"
+			},
+			{
+				"prefix": "⚙ ",
+				"regex": "tools"
+			}
+		],
+		"peacock.remoteColor": "#1857a4",
+		"search.exclude": {
+			"**/bower_components": true,
+			"**/coverage": true,
+			"**/dist": true,
+			"**/lib": true,
+			"**/lib-amd": true,
+			"**/node_modules": true,
+			"**/temp": true,
+			"**/test/**/temp": false
+		},
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#1f6fd0",
+			"activityBar.activeBorder": "#ee90bb",
+			"activityBar.background": "#1f6fd0",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#ee90bb",
+			"activityBarBadge.foreground": "#15202b",
+			"statusBar.background": "#1857a4",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#1f6fd0",
+			"titleBar.activeBackground": "#1857a4",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#1857a499",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"typescript.tsdk": "✨ @samantha-uk/berry-repro/.yarn/sdks/typescript/lib"
+	}
+}
